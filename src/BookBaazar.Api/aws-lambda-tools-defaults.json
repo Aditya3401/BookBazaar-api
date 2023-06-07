@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "profile" : "Aditya AWS",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "BookBazaarApi",
+    "package-type"  : "Zip",
+    "function-handler" : "BookBazaar.Api",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::819209821366:role/lambda_exec_BookBazaarApi",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
